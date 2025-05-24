@@ -1,0 +1,59 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+dt{
+    display: flex;
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+
+dl{
+    margin: 10px 20px;
+}
+.cont{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.oi{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.trave{
+    background-color: yellow;
+    border: inset 1px black;
+    border-radius: 3px;
+    padding: 1px 20px;
+}
+.card1{
+   text-align: start;
+   
+}
+.move{
+    display:flex;
+    align-items: end;
+
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+main{
+    margin-bottom: 16px;
+}
+dt a{
+    text-decoration: none;
+    color: #000000;
+}
+dl:hover{
+    animation: 1.6s;
+    scale: 0.8;
+}

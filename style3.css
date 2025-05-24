@@ -1,0 +1,38 @@
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+dt{
+    display:flex;
+    
+}
+
+dl{
+    margin: 20px ;
+}
+
+.cartoon{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    border-radius: 5px;
+}
+
+dt a{
+    text-decoration: none;
+    color: #000000;
+}
+
+dl:hover{
+    animation: 1.6s;
+    scale: 0.8;
+}

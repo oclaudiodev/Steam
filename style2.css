@@ -1,0 +1,34 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+dt{ 
+    display: flex;
+}
+dl{
+    padding: 10px;
+    margin: 15px;
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    margin: 0px 10px;
+}
+dt a{
+    text-decoration: none;
+    color: #000000;
+}
+dl:hover{
+    animation: 1.6s;
+    scale: 0.8;
+}
