@@ -3,6 +3,11 @@ header{
     justify-content: space-between;
     align-items: center;
 }
+body{
+    background:linear-gradient(#6C7F91,#1EB2F7,#41567A) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
 dt{
     display:flex;
@@ -16,12 +21,14 @@ dl{
 .cartoon{
     display: flex;
     justify-content: space-between;
+    margin:80px 0px;
 }
 
 footer{
     display: flex;
     justify-content: center;
 }
+
 
 
 dt a{
@@ -32,4 +39,64 @@ dt a{
 dl:hover{
     animation: 1.6s;
     scale: 0.8;
+}
+button{
+    padding: 16px;
+    border-radius: 5px;
+
+}
+
+button a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+}
+
+
+@media(max-width: 1024px){
+    .cartoon{
+        display: inline-block;
+        text-align: center;
+        margin-bottom: 45px;
+    }
+    section{
+        display: flex;
+        flex-direction: column;
+    
+    }
+
+    .title{
+        text-align: center;
+        margin-bottom: 90px;
+        font-family:"Chela One", system-ui;  
+    }
+
+    .tema{
+        font-family:"Chela One", system-ui;
+    }
+    button a{
+        font-family:"Chela One", system-ui; 
+        color:#000000;
+        text-decoration: none;
+        font-size: 20px;
+    }
+    button{
+        border-radius: 5px;
+        padding: 20px;
+    }
+
+    
+    header{
+        font-size: 25px;
+        margin-bottom: 35px;
+    }
+    dl a {
+        color: #fff;
+        font-weight: bolder;
+    }
+    .ft{
+        height: 300px;
+    }
+
+    
 }
